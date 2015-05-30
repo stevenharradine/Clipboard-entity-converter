@@ -25,7 +25,6 @@ import java.io.*;
 import java.util.ArrayList;
 
 public final class ClipboardEntityConverter implements ClipboardOwner {
-
   public static void main (String[] args){
     ClipboardEntityConverter clipboard = new ClipboardEntityConverter();
     Object[] entities = clipboard.loadEntities("entities.txt");
